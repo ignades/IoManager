@@ -14,7 +14,7 @@
             "email": "igna.olivieri@tiscali.it"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {
 
     },
