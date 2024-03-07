@@ -26,11 +26,6 @@ To work with this Package is essential observe rules
 - 
 ````
 /**
-* @OA\Info(
-*     description="This is an example API for users management",
-*     version="1.0.0",
-*     title="User Management API"
-* ),
 * @OA\Get(
 *     path="http://localhost:8000/docs/api-docs.json",
 *     @OA\Response(
