@@ -73,5 +73,13 @@ class ProductsController extends Controller
 - |-------- description
 
 ## Extra Parameters in personal route
-- Example route tha isn't a Resource but a new route with personal parameters this route specify a new method on the Controller of your interes to the first parameter {id_prod} corresponding the first type equal to next parameters .. second=&type=string for example. 
--  Route::post('/add/product/{id_prod}/{price}/{extra}?type=integer&type=string', [ProductsController::class,'myMethod2']);
+- Example route tha isn't a Resource but a new route with personal parameters this route specify a new method on the Controller of your interes to the first 
+- 
+- parameter {id_prod} corresponding the first type equal to next parameters .. second=&type=string for example. 
+-  
+- Route::post('/add/product/{id_prod}/{price}/{extra}?type=integer&type=string', [ProductsController::class,'myMethod2']);
+
+## Image Example
+
+![alt text](https://github.com/ignades/IoManager/blob/main/Types.jpg?raw=true)
+
