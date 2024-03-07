@@ -17,6 +17,5 @@
     "minimum-stability": "dev",
     "require": {
 
-    },
-    "prefer-stable" : true
+    }
 }
