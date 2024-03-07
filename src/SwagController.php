@@ -33,7 +33,7 @@ class SwagController extends Controller {
     public array $extraParameters=[];
 
 
-    public function generateAnnotations()
+    public function generateAnnotations():string
     {
 
         $routeCollection = collect(Route::getRoutes())->filter(function ($route) {
@@ -185,7 +185,7 @@ class SwagController extends Controller {
         $file = '../../storage/api-docs.json';
         Storage::disk('storage')->put("api-docs.json", $content);
 
-        return $this->jayParsedAry;
+        return "OK";
     }
 
 
