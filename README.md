@@ -82,6 +82,15 @@ class CreateSwagl5 extends Command
     }
 }
 ````
+## Step7 add to config/filesystem.php on disk
+````
+        'storage' => [
+            'driver' => 'local',
+            'root' => storage_path('api-docs'),
+            'throw' => false,
+        ],
+````
+
 - After the creation of all method in YourController you can run the next command 
 - Artisan Commands : to add Annotations on your controller you need use command this will generate the Annotations for each Api Method
 ````
