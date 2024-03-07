@@ -1,4 +1,7 @@
-
+## Install package in Laravel 
+````
+composer require iomanager/swgenerator
+````
 ## About LaravelOpenApiManager Author:Ignacio Sebastian Olivieri first version  27/02/2024
 
 To do a best Documentation to work on a team I think 27/02/2024 to start create an application to create very fast the annotations on each Controller of laravel to use with Swagger
