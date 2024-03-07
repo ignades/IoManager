@@ -124,5 +124,5 @@ Route::post('/add/product/{id_prod}/{price}/{extra}', [ProductsController::class
 ````
 ## Image Example
 
-![alt text](https://github.com/ignades/IoManager/blob/main/Types.jpg?raw=true)
+![alt text](https://github.com/ignades/IoManager/blob/main/Types.jpeg?raw=true)
 
